@@ -1,1 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub", "V.G Hub"))()
+script = "https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub"
+loadstring(game:HttpGet(script))()
+print(script)
