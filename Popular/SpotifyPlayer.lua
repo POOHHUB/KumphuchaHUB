@@ -1,1 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/SpotifyPlayer.lua", "SpotifyPlayer"))()
+script = "https://raw.githubusercontent.com/zzerexx/scripts/main/SpotifyPlayer.lua"
+loadstring(game:HttpGet(script))()
+print(script)
