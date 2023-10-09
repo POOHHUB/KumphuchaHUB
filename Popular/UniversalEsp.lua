@@ -1,1 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalEspUI.lua", "UniversalEspUI"))()
+script = "https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalEspUI.lua"
+loadstring(game:HttpGet(script))()
+print(script)
