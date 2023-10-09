@@ -1,1 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalAimbotUI.lua", "UniversalAimbotUI"))()
+script = "https://raw.githubusercontent.com/zzerexx/scripts/main/UniversalAimbotUI.lua"
+loadstring(game:HttpGet(script))()
+print(script)
